@@ -1,0 +1,14 @@
+﻿<Window x:Class="Ugozi_Comparator.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ugozi_Comparator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFF50B0B">
+        <Label Content="Приветствую путник!" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Height="115" Width="772" FontFamily="Verdana" FontSize="68"/>
+        <Button x:Name="Start_Button" Content="Нажми меня, чтобы начать!" HorizontalAlignment="Left" Height="80" Margin="240,240,0,0" VerticalAlignment="Top" Width="335" Click="Button_Click" FontFamily="Verdana" FontSize="16" Background="#FF40AA18" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

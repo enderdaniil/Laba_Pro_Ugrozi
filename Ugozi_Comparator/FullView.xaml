@@ -1,0 +1,17 @@
+﻿<Window x:Class="Ugozi_Comparator.FullView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ugozi_Comparator"
+        mc:Ignorable="d"
+        Title="FullView" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="FullDataGrid" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="715" SelectionChanged="DataGrid_SelectionChanged" Loaded="On_DataGrid_Load"/>
+        <Button Content="Вперёд" HorizontalAlignment="Left" Margin="730,330,0,0" VerticalAlignment="Top" Width="54" Click="btnNext_Click" Height="80" Background="#FF43F7D4"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="730,245,0,0" VerticalAlignment="Top" Width="54" Click="btnPrev_Click" Height="80" Background="#FF76FF38"/>
+        <Button Content="Домой" HorizontalAlignment="Left" Margin="730,10,0,0" VerticalAlignment="Top" Width="54" Click="Home_Click" Height="125" Background="Red"/>
+        <Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="730,140,0,0" VerticalAlignment="Top" Width="54" Height="100" Click="Save_Click"/>
+
+    </Grid>
+</Window>

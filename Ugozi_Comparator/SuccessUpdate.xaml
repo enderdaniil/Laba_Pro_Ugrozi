@@ -1,0 +1,14 @@
+﻿<Window x:Class="Ugozi_Comparator.SuccessUpdate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ugozi_Comparator"
+        mc:Ignorable="d"
+        Title="SuccessUpdate" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Content="Домой" HorizontalAlignment="Left" Margin="735,10,0,0" VerticalAlignment="Top" Width="49" Height="400" Click="Back_Click" Background="#FFE80000"/>
+        <ListBox x:Name="ListOfUpdates" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="720" Loaded="OnLoaded"/>
+
+    </Grid>
+</Window>
