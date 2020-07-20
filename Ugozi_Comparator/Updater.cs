@@ -102,7 +102,7 @@ namespace Ugozi_Comparator
             while (true)
             {
                 dateTime = DateTime.Now;
-                if (dateTime.Hour == 12 && !waiter)
+                if (dateTime.Hour == 10 && !waiter)
                 {
                     bool success = Updater.UpdateInformation();
 
